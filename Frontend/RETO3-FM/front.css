@@ -1,0 +1,70 @@
+@import url('https://fonts.google.com/specimen/Inter');
+@import url('https://fonts.google.com/specimen/Lexend+Deca');
+body {
+    background-color: #0A0C1B;
+}
+strong{
+    color: #B15CDB;
+}
+h6{
+    color: lightgray;
+}
+h1,h2,h3{
+    font-size:38px;
+    color:white;
+    font-family: Deca,Lexend;
+    font-weight:bold;
+    text-align: left;
+}
+p{
+    padding-top:15px;
+    font-family: Inter;
+    color:white;
+    text-align:left;
+    font-size:14px;
+}
+/*CONTAINER*/
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+/*CARD*/
+.card{
+    display:grid;
+    background-color: #1C1938;
+    border-radius:1em;
+
+}
+.card > .row > .col{
+    display: grid;
+}
+.card-body{
+    text-align: center;
+    justify-content: center;
+    display:flex;
+    padding: 60px 40px;
+}
+.row{
+    padding:auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.col > strong{
+    color:white;
+}
+img{
+    width: 100%;
+    height: auto;
+    border-left: 0;
+    border-bottom-right-radius: 1em;
+    border-top-right-radius: 1em;
+}
+.img-fluid{
+    background-image: linear-gradient(
+        115deg
+        , rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)  ), url('C:\Users\Andre\Documents\GitHub\FrontendMentor-\Frontend\RETO3-FM\images\image-header-desktop.jpg');
+}

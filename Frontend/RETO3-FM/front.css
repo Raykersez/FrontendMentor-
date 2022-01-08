@@ -39,6 +39,7 @@ p{
 }
 .card > .row > .col{
     display: grid;
+    padding:0;
 }
 .card-body{
     text-align: center;
@@ -53,18 +54,11 @@ p{
     align-items: center;
     justify-content: space-around;
 }
-.col > strong{
+.col > strong, h6{
+    text-align: center;
     color:white;
 }
-img{
-    width: 100%;
-    height: auto;
-    border-left: 0;
-    border-bottom-right-radius: 1em;
-    border-top-right-radius: 1em;
-}
-.img-fluid{
-    background-image: linear-gradient(
-        115deg
-        , rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)  ), url('C:\Users\Andre\Documents\GitHub\FrontendMentor-\Frontend\RETO3-FM\images\image-header-desktop.jpg');
+
+.col>.image{
+  
 }

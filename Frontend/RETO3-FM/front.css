@@ -43,25 +43,27 @@ p{
     padding:30px;
 }
 .card-body{
-    text-align: center;
-    justify-content: center;
+    text-align: left;
+    justify-content: left;
     display:flex;
     padding: 60px 40px;
 }
 .row{
-    text-align: center;
+    text-align: left;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 .col > strong, h6{
-    text-align: center;
+    text-align: left;
+    font-weight:500;
+    font-size: .8em;
     color:white;
 }
 .separator{
-    margin:15px 5px;
-    padding:15px 5px;
+    text-align: left;
 }
+
 
 .image{
     border-bottom-right-radius: 1em;

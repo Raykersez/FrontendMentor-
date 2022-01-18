@@ -9,6 +9,9 @@ h1,h2,h3,h4,h5,h6{
 p{
     color:#788CA7;
 }
+h3{
+    padding-top: 10px;
+}
 
 /*CARD CSS*/
 .card{
@@ -60,19 +63,17 @@ img{
     height:auto;
 }
 
-.avatar > img {
-    border-radius:50%;
-    border-color: white;
-}
-.col > .avatar{
-    color: white;
+.card-body>.col>.avatar{
+    color:white;
 }
 .avatar{
     align-items: center;
     display: flex;
     margin-left:0.3em;
     max-width:60px;
-    word-wrap: center;
+    border-radius: 50%;
+    border: 1px solid;
+    word-wrap: normal;
     color:white;
 }
 }

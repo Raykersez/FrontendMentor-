@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap');
 @media (min-width:1440px),(max-width:1800px){
     body{
-        font-family: 'Red Hat Display';
+        font-family: 'Red Hat Display', sans-serif;
         background-color: #D6E1FF;
     }
     h1,h2,h3{

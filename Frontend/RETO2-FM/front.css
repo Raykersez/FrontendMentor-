@@ -2,6 +2,8 @@
 @media (max-width:1400px),(min-width:1000px){
     .row{
         --bs-gutter-x: 0;
+        justify-content: center;
+        align-items: center;
     }
     body{
         font-family: 'Red Hat Display', sans-serif;
@@ -14,8 +16,11 @@
     }
     h4,h5,h6,p{
         text-align: center;
-        font-size: 19px;
-        padding:0 25px;
+        font-size: 16px;
+        padding:0 20px;
+    }
+    strong{
+        font-size:16px;
     }
     .card{
         width: 35%;
@@ -41,12 +46,15 @@
        display: flex;
        align-items: center; 
        justify-content: center;
+        text-align: center;
    }
-   .col a{
+   .col > a{
        color: #312BD9;
        font-weight: 600;
    }
-
+   .col> a:hover{
+       color: #B15CDB;
+   }
    .c1{
        margin: 0;
        padding-left: 0;

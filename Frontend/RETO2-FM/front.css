@@ -14,7 +14,7 @@
     }
     h4,h5,h6,p{
         text-align: center;
-         font-size: 19px;
+        font-size: 19px;
         padding:0 25px;
     }
     .card{
@@ -28,6 +28,8 @@
         display: grid;
         margin : 30px;
         align-items: center;
+        justify-content: center;
+        text-align: center;
     }
    img{
        border-top-left-radius: 2em;

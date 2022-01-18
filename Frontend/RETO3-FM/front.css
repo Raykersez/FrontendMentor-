@@ -12,13 +12,14 @@ h6{
 h1,h2,h3{
     font-size:38px;
     color:white;
-    font-family: Deca,Lexend;
+    font-family: Deca, Lexend, serif;
     font-weight:bold;
     text-align: left;
 }
 p{
-    padding-top:15px;
-    font-family: Inter;
+
+    padding:19px;
+    font-family: Inter, serif;
     color:white;
     text-align:left;
     font-size:14px;
@@ -48,7 +49,7 @@ p{
     padding: 60px 40px;
 }
 .row{
-    padding:auto;
+
     text-align: center;
     display: flex;
     align-items: center;
@@ -59,6 +60,14 @@ p{
     color:white;
 }
 
-.col>.image{
-  
+.image{
+    border-bottom-right-radius: 1em;
+    border-top-right-radius: 1em;
+    background: url("images/image-header-desktop.jpg") ;
+    background-size: cover;
+    background-color: hsl(277, 64%, 61%);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
 }

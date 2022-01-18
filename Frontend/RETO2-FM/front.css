@@ -4,6 +4,7 @@
         --bs-gutter-x: 0;
         justify-content: center;
         align-items: center;
+        padding-top:1px;
     }
     body{
         font-family: 'Red Hat Display', sans-serif;

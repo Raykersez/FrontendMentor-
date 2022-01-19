@@ -61,4 +61,12 @@
         cursor: pointer;
         align-items: center;
         align-content: center;
+        justify-content: flex-end;
+        display: flex;
+
     }
+
+ .col > .button{
+     display: flex;
+     justify-content: flex-end;
+ }

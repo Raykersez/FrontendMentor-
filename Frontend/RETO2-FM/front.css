@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap');
 @media (max-width:1400px),(min-width:1000px){
+
     .row{
         --bs-gutter-x: 0;
         justify-content: center;
@@ -23,7 +24,7 @@
         font-size:16px;
     }
     .card{
-        width: 35%;
+
         position: absolute;
         top: 50%;
         left: 50%;
@@ -41,6 +42,7 @@
        border-top-right-radius: 2em;
        width: 100%;
   height: auto;
+
    }
 .col{
        display: flex;

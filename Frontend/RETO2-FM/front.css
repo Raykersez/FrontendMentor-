@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap');
-@media (max-width:1400px),(min-width:1000px){
+@media (min-width: 1400px),(max-width:1800px){
 
     .row{
         --bs-gutter-x: 0;
@@ -9,6 +9,7 @@
     body{
         font-family: 'Red Hat Display', sans-serif;
         background-color: #D6E1FF;
+
     }
     h1,h2,h3{
         margin-top: 20px;
@@ -24,7 +25,6 @@
         font-size:16px;
     }
     .card{
-
         position: absolute;
         top: 50%;
         left: 50%;
@@ -41,8 +41,7 @@
        border-top-left-radius: 2em;
        border-top-right-radius: 2em;
        width: 100%;
-  height: auto;
-
+        height: auto;
    }
 .col{
        display: flex;

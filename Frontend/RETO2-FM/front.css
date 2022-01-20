@@ -9,21 +9,27 @@
     body{
         font-family: 'Red Hat Display', sans-serif;
         background-color: #D6E1FF;
-
     }
     h1,h2,h3{
         margin-top: 20px;
         text-align: center;
         font-weight: 700;
     }
-    h4,h5,h6,p{
+    p{
         text-align: center;
         font-size: 16px;
         padding:0 20px;
+        justify-content: center;
+    }
+    h6{
+        display:grid;
+        align-items: center;
+        padding-top:.6em;
     }
     strong{
         font-size:16px;
     }
+
     .card{
         position: absolute;
         top: 50%;
@@ -33,9 +39,6 @@
         border: none;
         display: grid;
         margin : 30px;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
     }
    img{
        border-top-left-radius: 2em;
@@ -43,12 +46,7 @@
        width: 100%;
         height: auto;
    }
-.col{
-       display: flex;
-       align-items: center; 
-       justify-content: center;
-        text-align: center;
-   }
+
    .col > a{
        color: #312BD9;
        font-weight: 600;
@@ -56,20 +54,26 @@
    .col> a:hover{
        color: #B15CDB;
    }
-   .c1{
-       margin: 0;
-       padding-left: 0;
+
+   .container> .row > .col {
+       display:flex;
+       align-items: center;
+       justify-content:space-around;
    }
    .container > .row{
        border-radius: 1em;
        background-color: #F8F9FE;
        padding: 10px;
        margin: 1px 0;
+
    }
    .music{
        width:60px;
    }
-
+   .col>a{
+       display:flex;
+       align-items: center;
+   }
    .submit{
        border-radius: 1em;
     padding: 15px 10px;

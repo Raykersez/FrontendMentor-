@@ -1,24 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
-
-*{
+    *{
     color:white;
-    font-size:15px;
+    font-size:17px;
     }
+
+    body{
+    background-color:hsl(0, 0%, 95%);
+    }
+
     h3{
         font-family: 'Big Shoulders Display', serif;
         font-weight:700;
         text-align:left;
     }
+
     p{
         font-family: 'Inter', sans-serif;
         font-weight:400;
-        font-size:14px;
+        font-size:17px;
         text-align:left;
     }
-    body {
-        background-color:hsl(0, 0%, 95%);
-    }
+
     .container{
         align-items: center;
         justify-content:left;
@@ -26,47 +29,50 @@
         top: 50%;
         left: 50%;
         transform:translate(-50%,-50%) ;
+        padding: 50px;
     }
 
     .row>.col {
-        padding: 20px 30px;
-    }
+        padding: 70px 25px;
 
+    }
     .sedans{
         background-color:hsl(31, 77%, 52%);
         border-bottom-left-radius: .8em;
         border-top-left-radius: .8em;
     }
+    .sedans>.button{
+        color:hsl(31, 77%, 52%);
+    }
     .suvs{
         background-color:hsl(184, 100%, 22%);
+    }
+    .suvs>.button{
+    color:hsl(184, 100%, 22%);
     }
     .luxury{
         background-color:hsl(179, 100%, 13%);
         border-bottom-right-radius: .8em;
         border-top-right-radius: .8em;
     }
-    .img-fluid{
-    align-items: center;
-    display: flex;
-    padding:15px 0;
-        width: 50px;
-    color:white;
+    .luxury>.button{
+    color:hsl(179, 100%, 13%);
     }
+    .img-fluid{
+        align-items: center;
+        display: flex;
+        padding:15px 0;
+        width: 50px;
+        color:white;
+    }
+
     .button{
-        background-color: transparent;
+        background-color: white;
         border:2px solid white;
         border-radius: 2em;
-        margin:15px 0;
-        padding:5px 25px ;
-        cursor: pointer;
-        align-items: center;
-        align-content: center;
-        justify-content: flex-end;
-        display: flex;
-
+        top:15%;
+        margin-top:50px;
+        padding:10px 25px;
+        text-align:left;
+        align-self:flex-end;
     }
-
- .col > .button{
-     display: flex;
-     justify-content: flex-end;
- }

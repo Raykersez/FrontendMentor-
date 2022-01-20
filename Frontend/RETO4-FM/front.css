@@ -3,6 +3,8 @@
     *{
     color:white;
     font-size:17px;
+
+
     }
 
     body{
@@ -20,6 +22,10 @@
         font-weight:400;
         font-size:17px;
         text-align:left;
+    }
+    .card{
+        margin-left: 300px;
+        margin-right: 300px;
     }
 
     .container{

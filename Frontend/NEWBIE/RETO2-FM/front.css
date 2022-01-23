@@ -25,7 +25,6 @@
         display:grid;
         align-items: center;
         padding-top:.1em;
-        padding-left: 10px;
         margin:-20px;
     }
     strong{
@@ -40,12 +39,13 @@
         border-radius: 2em;
         border: none;
         display: grid;
+        width: 500px;
     }
    img{
        border-top-left-radius: 2em;
        border-top-right-radius: 2em;
-       width: 100%;
-        height: auto;
+       width: 500px;
+       height: auto;
    }
 
    .col > a{
@@ -65,7 +65,7 @@
        border-radius: 1em;
        background-color: #F8F9FE;
        padding: 10px;
-       margin: 1px 0;
+       margin: 8px 0;
    }
    .music{
        width:60px;

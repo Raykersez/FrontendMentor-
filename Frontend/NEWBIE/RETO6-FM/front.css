@@ -1,8 +1,90 @@
-@media (min-width: 1400px),(max-width:1800px){
-    body{
-
-    }
-
-
-
+/*BACKGROUND-*/
+html{
+    height: 100%;
+    border:none;
 }
+body{
+    background-image: linear-gradient(to bottom, #a267e8, #9666e8, #8865e8, #7a64e8, #6a63e7);
+    border:none;
+}
+main{
+    z-index:0;
+}
+/*BACKGROUND-*/
+*{
+    font-size: 12px;
+}
+h2 {
+    font-size: 12px;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    cursor:pointer;
+    margin-bottom: .3em;
+    padding-bottom:.3em;
+    border-bottom:2px solid red;
+}
+/*CARD*/
+    .card{
+        top:50%;
+        left:50%;
+        position:absolute;
+        transform:translate(-50%,-50%);
+        border: none;
+        border-radius:1.5em;
+        max-width:100%;
+        height:auto;
+        display:grid;
+    }
+/*CARD*/
+    .col{
+        overflow:hidden !important;
+        max-width:100%;
+        width:80em;
+    }
+    .icon{
+        max-width:24%;
+        height:auto;
+        position: absolute;
+        transform:translate(-50%,-50%);
+        top: 63%;
+        left: 0;
+        z-index:1;
+        overflow:visible !important;
+    }
+    .image{
+        max-width:100%;
+        display:block;
+        left: -18%;
+        top:25%;
+        margin:0;
+        position:relative;
+        padding:35px;
+    }
+    .col>.card-body{
+        margin:30px 12px;
+    }
+.card-body .accordion{
+    width:70%;
+    max-width:50em;
+    padding:.2em;
+}
+.card-body .accordion .block{
+     margin: 0 0 .2em;
+        padding: .2em;
+    }
+.card-body .accordion .block .h2{
+        margin: 0 0 .2em;
+    }
+.card-body .accordion .block .text-body{
+    height:0;
+    padding:0;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+
+.card-body .accordion .block.activated .text-body{
+     height:1.5em;
+ }
+
+

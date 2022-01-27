@@ -7,8 +7,30 @@
     }
     body{
     background-color:hsl(0, 0%, 95%);
+        min-height: 100vh;
+    }
+@media (max-width:1040px){
+    .container{
+        border:none;
+        height:0;
+        width:0;
+        flex-direction: column;
+    }
+    .row {
+        border-bottom:none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform:translate(-50%,-50%) ;
+        max-width:60%;
+        width:100vh;
+        flex-direction: column;
+    }
+    .row .col{
+        border-radius:1.4em;
     }
 
+}
     h3{
         font-family: 'Big Shoulders Display', serif;
         font-weight:700;
@@ -21,10 +43,7 @@
         font-size:17px;
         text-align:left;
     }
-    .card{
-        margin-left: 300px;
-        margin-right: 300px;
-    }
+
 
     .container{
         align-items: center;

@@ -7,9 +7,6 @@ body {
 strong{
     color: #B15CDB;
 }
-h6{
-    color: lightgray;
-}
 h1,h2,h3{
     font-size:38px;
     color:white;
@@ -18,12 +15,30 @@ h1,h2,h3{
     text-align: left;
 }
 p{
-    margin: 0 30px;
-    padding:15px 50px;
     font-family:  Deca, Lexend, serif;
     color:white;
     text-align:left;
-    font-size:17px;
+    font-size:16px;
+}
+.card-text{
+    padding: 20px 30px;
+    display: grid;
+}
+.card-text > h1{
+    padding: 20px 25px;
+}
+.card-text > p{
+    margin: 0 auto;
+    padding:0 25px;
+}
+.card-text > ul{
+    color: white;
+    list-style:none;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding:20px 30px;
+    display:flex;
 }
 /*CONTAINER*/
 .container{
@@ -31,6 +46,7 @@ p{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+
 }
 /*CARD*/
 .card{
@@ -38,32 +54,6 @@ p{
     background-color: #1C1938;
     border-radius:1em;
 }
-.card > .row > .col{
-    display: grid;
-    padding:30px;
-}
-.card-body{
-    text-align: left;
-    justify-content: left;
-    display:flex;
-    padding: 60px 40px;
-}
-.row{
-    text-align: left;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-.col > strong, h6{
-    text-align: left;
-    font-weight:500;
-    font-size: .8em;
-    color:white;
-}
-.separator{
-    text-align: left;
-}
-
 
 .image{
     border-bottom-right-radius: 1em;
@@ -76,3 +66,12 @@ p{
     height: 100%;
     width: 100%;
 }
+ul li{
+    font-size: 12px;
+}
+li strong:nth-child(1){
+    color: white;
+    font-size: 1.7em;
+    text-align: left !important;
+}
+

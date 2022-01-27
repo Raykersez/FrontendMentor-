@@ -16,6 +16,9 @@ main{
 *{
     font-size: 12px;
 }
+h1{
+    font-weight: bold;
+}
 h2 {
     font-size: 12px;
     display:flex;
@@ -24,7 +27,12 @@ h2 {
     cursor:pointer;
     margin-bottom: .3em;
     padding-bottom:.3em;
-    border-bottom:2px solid red;
+    border-bottom:1px solid #D6E1FF;
+}
+.row{
+    width: 1000px;
+    max-width: 100%;
+    height: 45vh;
 }
 /*CARD*/
     .card{
@@ -85,7 +93,11 @@ h2 {
 .card-body .accordion{
     width:30em;
     max-width:90%;
-
+    padding-top: 60px;
+}
+.accordion .h2{
+    font-weight: 400;
+    font-size:14px;
 }
 .card-body .accordion .block{
      margin: 0 0 .2em;
@@ -94,6 +106,7 @@ h2 {
 .card-body .accordion .block .h2{
         margin: 0 0 .2em;
     }
+
 .card-body .accordion .block .text-body{
     height:0;
     padding:0;

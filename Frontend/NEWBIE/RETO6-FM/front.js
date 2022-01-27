@@ -7,5 +7,6 @@ h2.forEach((cH2 , i)=>{
             block[i].classList.remove('activated')
         })
          block[i].classList.add('activated')
+
     })
 })
